@@ -1,5 +1,5 @@
-import styles from '../styles/Khadamat.module.css'
-function Khadamat () {
+import styles from '../styles/Khadamat.module.css';
+function Khadamat() {
     return (
         <div className={styles.asli}>
             <div className={styles.subject}>
@@ -16,6 +16,6 @@ function Khadamat () {
                 </div>
             </div>
         </div>
-    )
+    );
 }
-export default Khadamat
+export default Khadamat;
