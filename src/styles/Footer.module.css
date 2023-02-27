@@ -1,0 +1,12 @@
+.container {
+    margin-top: 50rem;
+    bottom: 0;
+    height: 10rem;
+    background-color: #1a1d24;
+}
+.address{
+    color:whitesmoke;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-family: vazir;
+}

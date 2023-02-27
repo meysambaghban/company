@@ -1,0 +1,24 @@
+.side {
+    visibility: hidden;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .side {
+        visibility: visible;
+        color: green;
+        width: 30%;
+        height: 10rem;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+
+    .buttons {
+        border: 1px solid green;
+    }
+
+    .buttons a:hover {
+        color: green;
+    }
+}

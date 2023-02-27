@@ -1,0 +1,47 @@
+.subject {
+    font-size: 60px;
+    font-family: vazir;
+    color: blue;
+    margin-right: 33rem;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,350px);
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.item {
+    background-color: gray;
+    border: 1px solid black;
+    padding: 10px;
+    gap: 2;
+    font-size: 35px;
+    text-align:center;
+    margin: 25px;
+    border-radius: 25px;
+}
+.title {
+    color: blue;
+    margin-top: 0rem;
+}
+.tozihat {
+    font-family: vazir;
+    font-size: 16px;
+    margin-top: -2rem;
+}
+.tozihatnode{
+    font-family: vazir;
+    font-size: 14px;
+    margin-top: -2rem;
+}
+.tozihatmongo {
+    font-family: vazir;
+    font-size: 15px;
+    margin-top: -2rem;
+}
+.tozihatapi {
+    font-family: vazir;
+    font-size: 16px;
+    margin-top: -1rem;
+}

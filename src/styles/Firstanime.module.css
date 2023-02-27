@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+}
+
+
+
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    .info {
+        display: grid;
+        gap: 2;
+        padding: auto;
+        font-family: vazir;
+        color: blue;
+        font-size: 2rem;
+        margin-left: 15rem;
+        margin-top: 15rem;
+    }
+
+    .image {
+        gap: 2rem;
+        margin-top: 10rem;
+        margin-left: 41rem;
+    }
+
+    .tozihat {
+        display: grid;
+        gap: 4rem;
+        font-style: italic;
+        font-size: 22px;
+        margin-top: -2rem;
+        margin-left: 12rem;
+        color: green;
+        width: 20rem;
+    }
+.matn {
+    width: 30rem;
+    margin-right: 52rem;
+    margin-top: -42rem;
+}
+
+}
+
+@media screen and (min-device-width:1600px) {}
