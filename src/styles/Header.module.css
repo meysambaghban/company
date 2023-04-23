@@ -1,5 +1,7 @@
-.header {
-    background-color: #1a1d24;
+@media screen and (min-width: 1024px) and (max-device-width:1200px) {
+    .header
+     {
+    background-color:#1a1d24;
     height: 6rem;
     margin-top: -1rem;
     width: 100%;
@@ -27,7 +29,7 @@
     min-width: 10rem;
     text-align: center;
     padding-block: 1rem;
-    margin-top: 11px;
+    margin-top:1rem;
     text-decoration: none;
 }
 
@@ -46,7 +48,6 @@
     background-color: #fff;
     transition: transform 0.25s;
 }
-
 .navitem:nth-child(2):hover~.active {
     transform: translateX(-11rem);
 }
@@ -62,34 +63,445 @@
 .navitem:nth-child(5):hover~.active {
     transform: translateX(-44rem);
 }
-
-
-
-
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-    .image {
-
-        margin-right: 19rem;
-    }
+}
+@media screen and (min-device-width:768px) and (max-device-width:1024px) {
+    .header
+     {
+    background-color:#1a1d24;
+    height: 6rem;
+    margin-top: -1rem;
+    width: 100%;
+    display: grid;
 }
 
-@media screen and (min-device-width:1600px) {
-    .image {
-        margin-right: 34rem;
-    }
 
+.container {
+    padding-inline: 8rem;
 }
 
-@media screen and (max-device-width:480px){
+.navbar {
+    align-items: canter;
+    padding-block: 1rem;
+}
+
+.navlist {
+    gap: 1rem;
+    position: relative;
+    display: flex;
+    list-style: none;
+}
+
+.navitem {
+    min-width: 9rem;
+    text-align: center;
+    padding-block: 1rem;
+    margin-top:1rem;
+    text-decoration: none;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-family: vazir;
+}
+
+.active {
+    position: absolute;
+    bottom: 1rem;
+    height: 0.2rem;
+    width: 7rem;
+    background-color: #fff;
+    transition: transform 0.25s;
+}
+.image {
+    margin-right: 4rem;
+}
+.navitem:nth-child(2):hover~.active {
+    transform: translateX(-11rem);
+}
+
+.navitem:nth-child(3):hover~.active {
+    transform: translateX(-21rem);
+}
+
+.navitem:nth-child(4):hover~.active {
+    transform: translateX(-31rem);
+}
+
+.navitem:nth-child(5):hover~.active {
+    transform: translateX(-41rem);
+}
+}
+@media screen and (max-device-width:320px){
+  .header {
+    margin-top: -3rem;
+    width: 320px;
+  }
+    .navitem {
+    visibility: hidden;
+  }
+  .image {
+    margin-right: 11.3rem;
+    margin-top: -20rem;
+  }
+}
+@media screen and (min-device-width:1200px) and (max-width:1400px) {
+    .header
+    {
+   background-color:#1a1d24;
+   height: 6rem;
+   margin-top: -1rem;
+   width: 100%;
+   display: grid;
+}
+
+
+.container {
+   padding-inline: 8rem;
+}
+
+.navbar {
+   align-items: canter;
+   padding-block: 1rem;
+}
+
+.navlist {
+   gap: 1rem;
+   position: relative;
+   display: flex;
+   list-style: none;
+}
+
+.navitem {
+   min-width: 10rem;
+   text-align: center;
+   padding-block: 1rem;
+   margin-top:1rem;
+   text-decoration: none;
+}
+
+.navlink {
+   text-decoration: none;
+   color: white;
+   margin-top: 10px;
+   font-family: vazir;
+}
+
+.active {
+   position: absolute;
+   bottom: 1rem;
+   height: 0.2rem;
+   width: 10rem;
+   background-color: #fff;
+   transition: transform 0.25s;
+}
+.image {
+    margin-right: 20rem;
+}
+.navitem:nth-child(2):hover~.active {
+   transform: translateX(-11rem);
+}
+
+.navitem:nth-child(3):hover~.active {
+   transform: translateX(-22rem);
+}
+
+.navitem:nth-child(4):hover~.active {
+   transform: translateX(-33rem);
+}
+
+.navitem:nth-child(5):hover~.active {
+   transform: translateX(-44rem);
+}
+
+}
+@media screen and  (min-device-width: 1200px) and (max-device-width:1300px) {
+    .header
+    {
+   background-color:#1a1d24;
+   height: 6rem;
+   margin-top: -1rem;
+   width: 100%;
+   display: grid;
+}
+
+
+.container {
+   padding-inline: 8rem;
+}
+
+.navbar {
+   align-items: canter;
+   padding-block: 1rem;
+}
+
+.navlist {
+   gap: 1rem;
+   position: relative;
+   display: flex;
+   list-style: none;
+}
+
+.navitem {
+   min-width: 10rem;
+   text-align: center;
+   padding-block: 1rem;
+   margin-top:1rem;
+   text-decoration: none;
+}
+
+.navlink {
+   text-decoration: none;
+   color: white;
+   margin-top: 10px;
+   font-family: vazir;
+}
+
+.active {
+   position: absolute;
+   bottom: 1rem;
+   height: 0.2rem;
+   width: 10rem;
+   background-color: #fff;
+   transition: transform 0.25s;
+}
+.image {
+    margin-right: 20rem;
+}
+.navitem:nth-child(2):hover~.active {
+   transform: translateX(-11rem);
+}
+
+.navitem:nth-child(3):hover~.active {
+   transform: translateX(-22rem);
+}
+
+.navitem:nth-child(4):hover~.active {
+   transform: translateX(-33rem);
+}
+
+.navitem:nth-child(5):hover~.active {
+   transform: translateX(-44rem);
+}
+}
+@media screen and (min-device-width: 1300px) and (max-device-width:1400px) {
+    .header
+    {
+   background-color:#1a1d24;
+   height: 6rem;
+   margin-top: -1rem;
+   width: 100%;
+   display: grid;
+}
+
+
+.container {
+   padding-inline: 8rem;
+}
+
+.navbar {
+   align-items: canter;
+   padding-block: 1rem;
+}
+
+.navlist {
+   gap: 1rem;
+   position: relative;
+   display: flex;
+   list-style: none;
+}
+
+.navitem {
+   min-width: 10rem;
+   text-align: center;
+   padding-block: 1rem;
+   margin-top:1rem;
+   text-decoration: none;
+}
+
+.navlink {
+   text-decoration: none;
+   color: white;
+   margin-top: 10px;
+   font-family: vazir;
+}
+
+.active {
+   position: absolute;
+   bottom: 1rem;
+   height: 0.2rem;
+   width: 10rem;
+   background-color: #fff;
+   transition: transform 0.25s;
+}
+.image {
+    margin-right: 10rem;
+}
+.navitem:nth-child(2):hover~.active {
+   transform: translateX(-11rem);
+}
+
+.navitem:nth-child(3):hover~.active {
+   transform: translateX(-22rem);
+}
+
+.navitem:nth-child(4):hover~.active {
+   transform: translateX(-33rem);
+}
+
+.navitem:nth-child(5):hover~.active {
+   transform: translateX(-44rem);
+}
+.image {
+    margin-right: 20rem;
+}
+}
+@media screen and (min-device-width: 1400px) and (max-device-width:1500px) {
+    .header
+    {
+   background-color:#1a1d24;
+   height: 6rem;
+   margin-top: -1rem;
+   width: 100%;
+   display: grid;
+}
+
+
+.container {
+   padding-inline: 8rem;
+}
+
+.navbar {
+   align-items: canter;
+   padding-block: 1rem;
+}
+
+.navlist {
+   gap: 1rem;
+   position: relative;
+   display: flex;
+   list-style: none;
+}
+
+.navitem {
+   min-width: 5rem;
+   text-align: center;
+   padding-block: 1rem;
+   margin-top:1rem;
+   text-decoration: none;
+}
+
+.navlink {
+   text-decoration: none;
+   color: white;
+   margin-top: 10px;
+   font-family: vazir;
+}
+
+.active {
+   position: absolute;
+   bottom: 1rem;
+   height: 0.2rem;
+   width: 10rem;
+   background-color: #fff;
+   transition: transform 0.25s;
+}
+.navitem:nth-child(2):hover~.active {
+   transform: translateX(-11rem);
+}
+
+.navitem:nth-child(3):hover~.active {
+   transform: translateX(-22rem);
+}
+
+.navitem:nth-child(4):hover~.active {
+   transform: translateX(-33rem);
+}
+
+.navitem:nth-child(5):hover~.active {
+   transform: translateX(-44rem);
+}
+}
+@media screen and (min-device-width: 1500px) and (max-device-width:1700px){
+    .header
+    {
+   background-color:#1a1d24;
+   height: 6rem;
+   margin-top: -1rem;
+   width: 100%;
+   display: grid;
+}
+
+
+.container {
+   padding-inline: 8rem;
+}
+
+.navbar {
+   align-items: canter;
+   padding-block: 1rem;
+}
+
+.navlist {
+   gap: 1rem;
+   position: relative;
+   display: flex;
+   list-style: none;
+}
+
+.navitem {
+   min-width: 80rem;
+   text-align: center;
+   padding-block: 1rem;
+   margin-top:1rem;
+   text-decoration: none;
+}
+
+.navlink {
+   text-decoration: none;
+   color: white;
+   margin-top: 10px;
+   font-family: vazir;
+}
+
+.active {
+   position: absolute;
+   bottom: 1rem;
+   height: 0.2rem;
+   width: 10rem;
+   background-color: #fff;
+   transition: transform 0.25s;
+}
+.navitem:nth-child(2):hover~.active {
+   transform: translateX(-11rem);
+}
+
+.navitem:nth-child(3):hover~.active {
+   transform: translateX(-22rem);
+}
+
+.navitem:nth-child(4):hover~.active {
+   transform: translateX(-33rem);
+}
+
+.navitem:nth-child(5):hover~.active {
+   transform: translateX(-44rem);
+}
+.image {
+    margin-right: 20rem;
+}
+}
+@media screen and (min-device-width:320px) and (max-device-width:480px) {
     .header {
-        width: 100%;
-    }
-    .navbar {
+        margin-top: -3rem;
+        width: 320px;
+      }
+        .navitem {
         visibility: hidden;
-    }
-    .navitem{
-        visibility: hidden;
-    }
-
-
+      }
+      .image {
+        margin-right: 11.3rem;
+        margin-top: -20rem;
+      }
 }

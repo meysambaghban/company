@@ -1,8 +1,22 @@
-.container {
-    display: grid;
+@media screen and (min-width: 1024px) and (max-device-width:1200px){
+    .info {
+        display: grid;
+        gap: 2;
+        padding: auto;
+        font-family:vazir;
+        color: blue;
+        font-size: 2rem;
+        margin-right: 40rem;
+        margin-top: -22rem;
+    }
+    .tozihat {
+        width: 250px;
+        margin-right: 40rem;
+        font-family: vazir;
+        color: green;
+        font-size: 20px;
+    }
 }
-
-
 
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -17,7 +31,7 @@
         margin-top: 15rem;
     }
 
-    .image {
+    .banner {
         gap: 2rem;
         margin-top: 10rem;
         margin-left: 41rem;
@@ -35,10 +49,17 @@
     }
 .matn {
     width: 30rem;
-    margin-right: 52rem;
+    margin-right: 50rem;
     margin-top: -42rem;
 }
-
+.banner {
+    width: 700px;
+    height: 500px;
 }
-
-@media screen and (min-device-width:1600px) {}
+}
+@media screen and (min-device-width:320px) and (max-device-width:480px){
+    .banner {
+        width: 50%;
+        height: 200px;
+    }
+}

@@ -3,10 +3,11 @@ import styles from "../styles/Firstanime.module.css";
 function Firstanime() {
     return (
         <div className={styles.container}>
-            <Image className={styles.image}
+            <Image
+            className={styles.banner}
                 src="/first.jpg"
                 alt="ArkWeb"
-                width={700}
+                width={500}
                 height={500}
             />
             <div className={styles.matn}>

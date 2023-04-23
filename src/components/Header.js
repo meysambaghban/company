@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from '../styles/Header.module.css';
-import Sidebar from "../components/Sidebar";
 function Header() {
     return (
         <header className={styles.header}>
@@ -34,7 +33,6 @@ function Header() {
                     />
                 </ul>
             </nav>
-            <Sidebar />
         </header>
     );
 }

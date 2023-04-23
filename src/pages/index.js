@@ -21,13 +21,9 @@ export default function Home() {
 
         <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
       </Head>
+      <Header />
       <main>
-        <Header />
         <Firstanime />
-        <Technology />
-        <Khadamat />
-        <Nomoone />
-        <Footer />
        </main>
     </>
   );
